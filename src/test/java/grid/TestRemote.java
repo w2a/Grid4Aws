@@ -21,6 +21,7 @@ public class TestRemote {
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("Hello Grid !!!");
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 		driver.quit();
 		
 
